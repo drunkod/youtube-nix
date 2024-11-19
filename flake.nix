@@ -57,7 +57,7 @@
           [
             zlib
           ]
-          ++ self.checks.${system}.pre-commit-check.enabledPackages;
+          ++ self.checks.${system}.formatting.enabledPackages;
       };
     in {
       devShells = {
